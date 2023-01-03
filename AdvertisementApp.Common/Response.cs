@@ -1,5 +1,6 @@
 namespace AdvertisementApp.Common
 {
+    // Data taşımayan
     public class Response : IResponse
     {
 
