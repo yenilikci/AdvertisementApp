@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\assets\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\assets\\img\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\assets\\img\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\assets\\img\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.AdvertisementApp.UI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.AdvertisementApp.UI.props",
+      "PackagePath": "build\\AdvertisementApp.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.AdvertisementApp.UI.props",
+      "PackagePath": "buildMultiTargeting\\AdvertisementApp.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.AdvertisementApp.UI.props",
+      "PackagePath": "buildTransitive\\AdvertisementApp.UI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
