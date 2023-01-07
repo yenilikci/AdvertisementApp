@@ -66,3 +66,4 @@ C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.UI\obj\Debu
 C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.UI\obj\Debug\net6.0\AdvertisementApp.UI.pdb
 C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.UI\obj\Debug\net6.0\AdvertisementApp.UI.genruntimeconfig.cache
 C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.UI\obj\Debug\net6.0\ref\AdvertisementApp.UI.dll
+C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.UI\bin\Debug\net6.0\AutoMapper.dll
