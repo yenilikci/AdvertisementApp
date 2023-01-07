@@ -29,6 +29,7 @@ namespace AdvertisementApp.Business.DependencyResolvers.Microsoft
             var mapperConfiguration = new MapperConfiguration(opt =>
             {
                 opt.AddProfile(new ProvidedServiceProfile());
+                opt.AddProfile(new AdvertisementProfile());
             });
 
             var mapper = mapperConfiguration.CreateMapper();
@@ -38,6 +39,9 @@ namespace AdvertisementApp.Business.DependencyResolvers.Microsoft
 
             services.AddTransient<IValidator<ProvidedServiceCreateDto>, ProvidedServiceCreateDtoValidator>();
             services.AddTransient<IValidator<ProvidedServiceUpdateDto>, ProvidedServiceUpdateDtoValidator>();
+
+            services.AddTransient<IValidator<AdvertisementCreateDto>, AdvertisementCreateDtoValidator>();
+            services.AddTransient<IValidator<AdvertisementUpdateDto>, AdvertisementUpdateDtoValidator>();
 
             services.AddScoped<IProvidedServiceService, ProvidedServiceService>();
         }
