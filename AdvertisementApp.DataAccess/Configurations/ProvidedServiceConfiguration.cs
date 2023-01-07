@@ -16,7 +16,7 @@ namespace AdvertisementApp.DataAccess.Configurations
             builder.Property(x => x.Description).HasColumnType("ntext").IsRequired();
             builder.Property(x => x.ImagePath).HasMaxLength(500).IsRequired();
             builder.Property(x => x.Title).HasMaxLength(300).IsRequired();
-            builder.Property(x => x.CreatedDate).HasDefaultValueSql("getdae()");
+            builder.Property(x => x.CreatedDate).HasDefaultValueSql("getdate()");
         }
     }
 }

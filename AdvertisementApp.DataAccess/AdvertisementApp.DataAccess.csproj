@@ -16,7 +16,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AdvertisementApp.Common\AdvertisementApp.Common.csproj" />
     <ProjectReference Include="..\AdvertisementApp.Entities\AdvertisementApp.Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
   </ItemGroup>
 
 </Project>

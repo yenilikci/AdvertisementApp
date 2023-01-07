@@ -15,7 +15,7 @@ namespace AdvertisementApp.Common
             Data = data;
         }
 
-        public Response(T data, List<CustomValidationError> validationErrors) : base(responseType)
+        public Response(T data, List<CustomValidationError> validationErrors) : base(ResponseType.ValidationError)
         {
             ValidationErrors = validationErrors;
             Data = data;

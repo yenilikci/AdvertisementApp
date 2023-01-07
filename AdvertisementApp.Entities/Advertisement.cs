@@ -1,6 +1,6 @@
 namespace AdvertisementApp.Entities
 {
-    public class Advertisement
+    public class Advertisement : BaseEntity
     {
         public string Title { get; set; }
         public bool Status { get; set; }
