@@ -1,4 +1,4 @@
-﻿using AdvertisementApp.Dtos.ProvidedServicesDtos;
+﻿using AdvertisementApp.Dtos;
 using AdvertisementApp.Entities;
 using AutoMapper;
 using System;

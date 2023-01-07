@@ -13,11 +13,11 @@
     <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
+    <link href="/css/styles.css" rel="stylesheet" />
 </head>
 <body id="page-top">    
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
         <div class="container px-5">
             <a class="navbar-brand" href="#page-top">Advertisement App</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -25,24 +25,12 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#!">Sign Up</a></li>
                     <li class="nav-item"><a class="nav-link" href="#!">Log In</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-action="HumanResources" asp-controller="Home">Human Resources</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- Header-->
-    <header class="masthead text-center text-white">
-        <div class="masthead-content">
-            <div class="container px-5">
-                <h1 class="masthead-heading mb-0">#hiApp!</h1>
-                <h2 class="masthead-subheading mb-0">Will Rock Your Socks Off</h2>
-                <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Learn More</a>
-            </div>
-        </div>
-        <div class="bg-circle-1 bg-circle"></div>
-        <div class="bg-circle-2 bg-circle"></div>
-        <div class="bg-circle-3 bg-circle"></div>
-        <div class="bg-circle-4 bg-circle"></div>
-    </header>
+
     @RenderBody()
 
     <!-- Footer-->
@@ -52,6 +40,6 @@
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
+    <script src="/js/scripts.js"></script>
 </body>
 </html>

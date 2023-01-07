@@ -1,6 +1,6 @@
 ﻿using AdvertisementApp.Common;
 using AdvertisementApp.Dtos.Interfaces;
-using AdvertisementApp.Dtos.ProvidedServicesDtos;
+using AdvertisementApp.Dtos;
 using AdvertisementApp.Entities;
 using System;
 using System.Collections.Generic;
