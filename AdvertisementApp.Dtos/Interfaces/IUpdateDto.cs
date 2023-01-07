@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace AdvertisementApp.Dtos.Interfaces
 {
-    public interface IDto
+    public interface IUpdateDto
     {
+        int Id { get; set; }
     }
 }
