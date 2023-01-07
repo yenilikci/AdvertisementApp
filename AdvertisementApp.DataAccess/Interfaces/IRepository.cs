@@ -11,7 +11,7 @@ namespace AdvertisementApp.DataAccess.Interfaces
 {
     public interface IRepository<T> where T : BaseEntity
     {
-        Task<List<T>> GetAll();
+        Task<List<T>> GetAllAsync();
         Task<List<T>> GetAllAsync(Expression<Func<T, bool>> filter);
 
         Task<List<T>> GetAllAsync<TKey>(Expression<Func<T, TKey>> selector, OrderByType orderByType = OrderByType.DESC);
