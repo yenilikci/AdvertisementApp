@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace AdvertisementApp.DataAccess.Configurations
 {
-    internal class MilitaryStatusConfiguration : IEntityTypeConfiguration<MilitaryStatus>
+    public class MilitaryStatusConfiguration : IEntityTypeConfiguration<MilitaryStatus>
     {
         public void Configure(EntityTypeBuilder<MilitaryStatus> builder)
         {

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace AdvertisementApp.DataAccess.Configurations
 {
-    internal class GenderConfiguration : IEntityTypeConfiguration<Gender>
+    public class GenderConfiguration : IEntityTypeConfiguration<Gender>
     {
         public void Configure(EntityTypeBuilder<Gender> builder)
         {
