@@ -67,3 +67,9 @@ C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.UI\obj\Debu
 C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.UI\obj\Debug\net6.0\AdvertisementApp.UI.genruntimeconfig.cache
 C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.UI\obj\Debug\net6.0\ref\AdvertisementApp.UI.dll
 C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.UI\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.UI\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.UI\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.UI\bin\Debug\net6.0\AdvertisementApp.Dtos.dll
+C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.UI\bin\Debug\net6.0\AdvertisementApp.Dtos.pdb
+C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.UI\obj\Debug\net6.0\AdvertisementApp.UI.RazorAssemblyInfo.cache
+C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.UI\obj\Debug\net6.0\AdvertisementApp.UI.RazorAssemblyInfo.cs

@@ -4,6 +4,7 @@ namespace AdvertisementApp.Common
     public class Response<T> : Response, IResponse<T>
     {
         public T Data { get; set; }
+
         public List<CustomValidationError> ValidationErrors { get; set; }
         public Response(ResponseType responseType, string message) : base(responseType, message)
         {
@@ -15,9 +16,9 @@ namespace AdvertisementApp.Common
             Data = data;
         }
 
-        public Response(T data, List<CustomValidationError> validationErrors) : base(ResponseType.ValidationError)
+        public Response(T data, List<CustomValidationError> errors) : base(ResponseType.ValidationError)
         {
-            ValidationErrors = validationErrors;
+            ValidationErrors = errors;
             Data = data;
         }
     }

@@ -1,4 +1,6 @@
-﻿using AdvertisementApp.Business.Mappings.AutoMapper;
+﻿using AdvertisementApp.Business.Interfaces;
+using AdvertisementApp.Business.Mappings.AutoMapper;
+using AdvertisementApp.Business.Services;
 using AdvertisementApp.Business.ValidationRules;
 using AdvertisementApp.DataAccess;
 using AdvertisementApp.DataAccess.UnitOfWork;
@@ -24,12 +26,10 @@ namespace AdvertisementApp.Business.DependencyResolvers.Microsoft
             {
                 opt.UseSqlServer(configuration.GetConnectionString("ConnectionStrings:Local"));
             });
-
             var mapperConfiguration = new MapperConfiguration(opt =>
             {
                 opt.AddProfile(new ProvidedServiceProfile());
             });
-
 
             var mapper = mapperConfiguration.CreateMapper();
             services.AddSingleton(mapper);
@@ -38,6 +38,8 @@ namespace AdvertisementApp.Business.DependencyResolvers.Microsoft
 
             services.AddTransient<IValidator<ProvidedServiceCreateDto>, ProvidedServiceCreateDtoValidator>();
             services.AddTransient<IValidator<ProvidedServiceUpdateDto>, ProvidedServiceUpdateDtoValidator>();
+
+            services.AddScoped<IProvidedServiceService, ProvidedServiceService>();
         }
     }
 }

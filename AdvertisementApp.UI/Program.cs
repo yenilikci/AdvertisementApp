@@ -7,9 +7,12 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AdvertisementContext>(
     options => options.UseSqlServer(builder.Configuration.GetSection("ConnectionStrings:Local").Value));
 
+builder.Services.AddControllersWithViews();
+builder.Services.AddDependencies(builder.Configuration);
+
 var app = builder.Build();
 
 
-app.MapGet("/", () => "Hello World!");
+app.MapDefaultControllerRoute();
 
 app.Run();

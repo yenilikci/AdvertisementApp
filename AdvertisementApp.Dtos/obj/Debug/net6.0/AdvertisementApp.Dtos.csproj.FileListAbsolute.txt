@@ -1,0 +1,12 @@
+C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.Dtos\bin\Debug\net6.0\AdvertisementApp.Dtos.deps.json
+C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.Dtos\bin\Debug\net6.0\AdvertisementApp.Dtos.dll
+C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.Dtos\bin\Debug\net6.0\AdvertisementApp.Dtos.pdb
+C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\net6.0\AdvertisementApp.Dtos.csproj.AssemblyReference.cache
+C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\net6.0\AdvertisementApp.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\net6.0\AdvertisementApp.Dtos.AssemblyInfoInputs.cache
+C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\net6.0\AdvertisementApp.Dtos.AssemblyInfo.cs
+C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\net6.0\AdvertisementApp.Dtos.csproj.CoreCompileInputs.cache
+C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\net6.0\AdvertisementApp.Dtos.dll
+C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\net6.0\refint\AdvertisementApp.Dtos.dll
+C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\net6.0\AdvertisementApp.Dtos.pdb
+C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\net6.0\ref\AdvertisementApp.Dtos.dll

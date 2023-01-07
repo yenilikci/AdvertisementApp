@@ -26,6 +26,26 @@
           }
         }
       },
+      "FluentValidation/11.4.0": {
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.4.0.0"
+          }
+        }
+      },
+      "FluentValidation.DependencyInjectionExtensions/11.4.0": {
+        "dependencies": {
+          "FluentValidation": "11.4.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.4.0.0"
+          }
+        }
+      },
       "Humanizer.Core/2.8.26": {
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {
@@ -436,7 +456,10 @@
         "dependencies": {
           "AdvertisementApp.Common": "1.0.0",
           "AdvertisementApp.DataAccess": "1.0.0",
+          "AdvertisementApp.Dtos": "1.0.0",
           "AutoMapper": "12.0.0",
+          "FluentValidation": "11.4.0",
+          "FluentValidation.DependencyInjectionExtensions": "11.4.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
         "runtime": {
@@ -459,6 +482,11 @@
           "AdvertisementApp.DataAccess.dll": {}
         }
       },
+      "AdvertisementApp.Dtos/1.0.0": {
+        "runtime": {
+          "AdvertisementApp.Dtos.dll": {}
+        }
+      },
       "AdvertisementApp.Entities/1.0.0": {
         "runtime": {
           "AdvertisementApp.Entities.dll": {}
@@ -478,6 +506,20 @@
       "sha512": "sha512-0Rmg0zI5AFu1O/y//o9VGyhxKjhggWpk9mOA1tp0DEVx40c61bs+lnQv+0jUq8XbniF7FKgIVvI1perqiMtLrA==",
       "path": "automapper/12.0.0",
       "hashPath": "automapper.12.0.0.nupkg.sha512"
+    },
+    "FluentValidation/11.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WZJyrNf4suiaI6avVG32W9kmBLC3+V5rDTcLeRJjeU4tDmTyDIOz1459DzCKppXs34YpZg9rCUzDY3M4XxG7Ug==",
+      "path": "fluentvalidation/11.4.0",
+      "hashPath": "fluentvalidation.11.4.0.nupkg.sha512"
+    },
+    "FluentValidation.DependencyInjectionExtensions/11.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iZXtoDqfRnggHwIbFWnK1sFs3KlTadH5ezNDiXz411OSkUNowBRboaZBcSvx4gEot7CNZdoReUKWYJwow2+mbg==",
+      "path": "fluentvalidation.dependencyinjectionextensions/11.4.0",
+      "hashPath": "fluentvalidation.dependencyinjectionextensions.11.4.0.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",
@@ -784,6 +826,11 @@
       "sha512": ""
     },
     "AdvertisementApp.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AdvertisementApp.Dtos/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

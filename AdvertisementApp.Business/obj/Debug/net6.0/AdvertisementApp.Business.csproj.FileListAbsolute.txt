@@ -17,3 +17,5 @@ C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.Business\ob
 C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.Business\obj\Debug\net6.0\refint\AdvertisementApp.Business.dll
 C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.Business\obj\Debug\net6.0\AdvertisementApp.Business.pdb
 C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.Business\obj\Debug\net6.0\ref\AdvertisementApp.Business.dll
+C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.Business\bin\Debug\net6.0\AdvertisementApp.Dtos.dll
+C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.Business\bin\Debug\net6.0\AdvertisementApp.Dtos.pdb
