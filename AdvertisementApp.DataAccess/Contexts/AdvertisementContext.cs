@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using AdvertisementApp.Entities;
+using AdvertisementApp.DataAccess.Configurations;
 
 namespace AdvertisementApp.DataAccess
 {
@@ -8,6 +9,19 @@ namespace AdvertisementApp.DataAccess
         public AdvertisementContext(DbContextOptions<AdvertisementContext> options) : base(options)
         {
 
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new AdvertisementAppUserConfiguration());
+            modelBuilder.ApplyConfiguration(new AdvertisementAppUserStatusConfiguration());
+            modelBuilder.ApplyConfiguration(new AdvertisementConfiguration());
+            modelBuilder.ApplyConfiguration(new AppRoleConfiguration());
+            modelBuilder.ApplyConfiguration(new AppUserConfiguration());
+            modelBuilder.ApplyConfiguration(new AppUserRoleConfiguration());
+            modelBuilder.ApplyConfiguration(new GenderConfiguration());
+            modelBuilder.ApplyConfiguration(new MilitaryStatusConfiguration());
+            modelBuilder.ApplyConfiguration(new ProvidedServiceConfiguration());
         }
 
         public DbSet<Advertisement> Advertisements { get; set; }
