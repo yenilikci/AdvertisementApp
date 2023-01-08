@@ -44,6 +44,7 @@ namespace AdvertisementApp.Business.DependencyResolvers.Microsoft
             services.AddTransient<IValidator<AdvertisementUpdateDto>, AdvertisementUpdateDtoValidator>();
 
             services.AddScoped<IProvidedServiceService, ProvidedServiceService>();
+            services.AddScoped<IAdvertisementService, AdvertisementService>();
         }
     }
 }
