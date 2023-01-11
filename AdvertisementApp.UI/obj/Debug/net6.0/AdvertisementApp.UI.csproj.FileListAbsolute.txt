@@ -74,3 +74,5 @@ C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.UI\bin\Debu
 C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.UI\obj\Debug\net6.0\AdvertisementApp.UI.RazorAssemblyInfo.cache
 C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.UI\obj\Debug\net6.0\AdvertisementApp.UI.RazorAssemblyInfo.cs
 C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.UI\bin\Debug\net6.0\AdvertisementApp.UI.staticwebassets.runtime.json
+C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.UI\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.UI\obj\Debug\net6.0\AdvertisementApp.UI.MvcApplicationPartsAssemblyInfo.cs

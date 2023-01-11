@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "QPdp/tq/ySa3EXF2ZQ3ieouRoYiDXTDyZCUJAJ67RmuVmxbqau0a38cM/5/3Z0TPeKvVRtu1MXQJjTwHxFwKVg==",
+  "dgSpecHash": "9A/ozV3ZWena0Q7aYC0KVqhiclDgHHK4jYSe94vBuHFXNxyA5poDlvsRRDV98eiGYpXjA6OhuvxQx9KKXxBXOQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\AdvertisementApp.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\belih\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\belih\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
+    "C:\\Users\\belih\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
     "C:\\Users\\belih\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.4.0\\fluentvalidation.dependencyinjectionextensions.11.4.0.nupkg.sha512",
     "C:\\Users\\belih\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\belih\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
