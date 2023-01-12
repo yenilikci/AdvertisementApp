@@ -103,8 +103,15 @@ namespace AdvertisementApp.UI.Controllers
                 return RedirectToAction("Index", "Home");
 
             }
-            ModelState.AddModelError("", result.Message);
+            ModelState.AddModelError("Username or password is wrong", result.Message);
             return View(dto);
+        }
+
+        public async Task<IActionResult> LogOut()
+        {
+            await HttpContext.SignOutAsync(
+                CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToAction("Index", "Home");
         }
     }
 }

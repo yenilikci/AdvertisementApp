@@ -18,12 +18,12 @@
                         <div>
                             @if(User.Identity.IsAuthenticated)
                             {
-                                <a href="#">Apply</a>
+                                <a asp-controller="Advertisement" asp-action="Send">Apply</a>
                             }
                             else
                             {
-                                <div class="alert alert-light text-center lead my-2">
-                                    You must register to apply <a href="#">Register</a>
+                                <div class="alert alert-light text-center my-2">
+                                    You must sign in to apply <a asp-action="SignIn" asp-controller="Account">Sign In</a>
                                 </div>
                             }
                         </div>

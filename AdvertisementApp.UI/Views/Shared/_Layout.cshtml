@@ -15,7 +15,7 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="/css/styles.css" rel="stylesheet" />
 </head>
-<body id="page-top">    
+<body id="page-top">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
         <div class="container px-5">
@@ -23,9 +23,27 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" asp-action="SignUp" asp-controller="Account">Sign Up</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#!">Log In</a></li>
-                    <li class="nav-item"><a class="nav-link" asp-action="HumanResources" asp-controller="Home">Human Resources</a></li>
+                    @{
+                        if (User.Identity.IsAuthenticated)
+                        {
+                            @if (User.IsInRole("Member"))
+                            {
+                                <li class="nav-item"><a class="nav-link" asp-action="HumanResources" asp-controller="Home">Human Resources</a></li>
+                            }
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <li class="nav-item"><a class="nav-link" asp-action="Index" asp-controller="Advertisement">Advertisement</a></li>
+                            }
+                            <li class="nav-item"><a class="nav-link" asp-action="LogOut" asp-controller="Account">Logout</a></li>
+                        }
+
+                        else
+                        {
+                            <li class="nav-item"><a class="nav-link" asp-action="SignUp" asp-controller="Account">Sign Up</a></li>
+                            <li class="nav-item"><a class="nav-link" asp-action="SignIn" asp-controller="Account">Sign In</a></li>
+                            <li class="nav-item"><a class="nav-link" asp-action="HumanResources" asp-controller="Home">Human Resources</a></li>
+                        }
+                    }
                 </ul>
             </div>
         </div>

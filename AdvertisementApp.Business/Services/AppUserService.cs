@@ -66,8 +66,8 @@ namespace AdvertisementApp.Business.Services
 
         public async Task<IResponse<List<AppRoleListDto>>> GetRolesByUserIdAsync(int userId)
         {
-            var roles = _uow.GetRepository<AppRole>().GetAllAsync(x => x.AppUserRoles.Any(x => x.AppUserId == userId));
-            if (roles != null)
+            var roles = await _uow.GetRepository<AppRole>().GetAllAsync(x => x.AppUserRoles.Any(x => x.AppUserId == userId));
+            if (roles == null)
             {
                 return new Response<List<AppRoleListDto>>(ResponseType.NotFound, "Role not found");
             }
