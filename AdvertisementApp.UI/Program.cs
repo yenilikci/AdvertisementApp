@@ -25,6 +25,9 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
     opt.Cookie.SameSite = Microsoft.AspNetCore.Http.SameSiteMode.Strict;
     opt.Cookie.SecurePolicy = Microsoft.AspNetCore.Http.CookieSecurePolicy.SameAsRequest;
     opt.ExpireTimeSpan = TimeSpan.FromDays(20);
+    opt.LoginPath = new Microsoft.AspNetCore.Http.PathString("/Accout/SignIn");
+    opt.LogoutPath = new Microsoft.AspNetCore.Http.PathString("/Accout/LogOut");
+    opt.AccessDeniedPath = new Microsoft.AspNetCore.Http.PathString("/Accout/AccessDenied");
 });
 
 var Profiles = ProfileHelper.GetProfiles();

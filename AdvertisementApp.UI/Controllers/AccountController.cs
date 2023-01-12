@@ -56,5 +56,21 @@ namespace AdvertisementApp.UI.Controllers
             model.Genders = new SelectList(response.Data, "Id", "Definition", model.GenderId);
             return View(model);
         }
+
+        public IActionResult SignIn()
+        {
+            return View();
+        }
+
+
+        [HttpPost]
+        public IActionResult SignIn(AppUserLoginDto dto)
+        {
+            if (ModelState.IsValid)
+            {
+
+            }
+            return View(dto);
+        }
     }
 }
