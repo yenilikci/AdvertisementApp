@@ -1,4 +1,4 @@
-﻿@model UserCreateModel
+﻿@model AppUserLoginDto
 @{
     Layout = "_Layout";
 }
@@ -15,6 +15,14 @@
             <label>Password </label>
             <input type="password" asp-for="@Model.Password" class="form-control" />
         </div>
+
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" asp-for="@Model.RememberMe" />
+            <label class="form-check-label">
+                Remember Me
+            </label>
+        </div>
+
         <div class="mb-3 text-end">
             <button type="submit" class="btn btn-primary">
                 Sign In!
