@@ -37,7 +37,7 @@ namespace AdvertisementApp.Business.Services
         public async Task<IResponse<CreateDto>> CreateAsync(CreateDto dto)
         {
             var result = _createDtoValidator.Validate(dto);
-            if(result.IsValid) 
+            if (result.IsValid)
             {
                 var createdEntity = _mapper.Map<T>(dto);
                 await _uow.GetRepository<T>().CreateAsync(createdEntity);
@@ -59,7 +59,7 @@ namespace AdvertisementApp.Business.Services
         public async Task<IResponse<IDto>> GetByIdAsync(int id)
         {
             var data = await _uow.GetRepository<T>().GetByFilterAsync(x => x.Id == id);
-            if(data == null)
+            if (data == null)
             {
                 return new Response<IDto>(ResponseType.NotFound, $"{id} ye sahip data bulunamadı!");
             }
@@ -83,7 +83,7 @@ namespace AdvertisementApp.Business.Services
         public async Task<IResponse<UpdateDto>> UpdateAsync(UpdateDto dto)
         {
             var result = _updateDtoValidator.Validate(dto);
-            if(result.IsValid)
+            if (result.IsValid)
             {
                 var unchangedData = await _uow.GetRepository<T>().FindAsync(dto.Id);
                 if (unchangedData == null)
@@ -95,7 +95,7 @@ namespace AdvertisementApp.Business.Services
                 await _uow.SaveChangesAsync();
                 return new Response<UpdateDto>(ResponseType.Success, dto);
             }
-                return new Response<UpdateDto>(dto, result.ConvertCustomValidationError());
+            return new Response<UpdateDto>(dto, result.ConvertCustomValidationError());
 
         }
     }

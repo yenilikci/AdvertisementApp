@@ -44,7 +44,7 @@ namespace AdvertisementApp.UI.Controllers
             if (result.IsValid)
             {
                 var dto = _mapper.Map<AppUserCreateDto>(model);
-                var createResponse = await _appUserService.CreateAsync(dto);
+                var createResponse = await _appUserService.CreateWithRoleAsync(dto, 2);
                 return this.ResponseRedirectAction(createResponse, "SignIn");
             }
             foreach (var error in result.Errors)
