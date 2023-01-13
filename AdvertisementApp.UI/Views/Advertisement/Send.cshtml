@@ -8,7 +8,20 @@
     <hr />
     <form asp-action="Send" asp-controller="Advertisement" method="post" class="p-4 w--75 mx-auto">
 
-         <input asp-for="@Model.AdvertisementId" type="hidden" />
+        <input asp-for="@Model.AdvertisementId" type="hidden" />
+
+        <div class="mb-3">
+            <label>Military Status</label>
+            <select onchange="setInputVisibility()" class="form-select" asp-items="@ViewBag.MilitaryStatus" asp-for="@Model.MilitaryStatusId">
+            </select>
+        </div>
+
+        <div id="dateDiv" class="mb-3" style="display: none;">
+            <label>Postpone the date</label>
+            <input type="date" asp-for="@Model.EndDate" class="form-control" />
+        </div>
+
+
         <div class="mb-3 text-end">
             <button type="submit" class="btn btn-primary">
                 Send
@@ -17,3 +30,22 @@
         <div class="text-danger" asp-validation-summary="All"></div>
     </form>
 </div>
+
+@section script {
+
+    <script>
+        setInputVisibility();
+        function setInputVisibility() {
+            var selectElement = document.getElementById("MilitaryStatusId");
+            var militaryStatusId = selectElement.value;
+            var dateDivElement = document.getElementById("dateDiv");
+            if (militaryStatusId == 2) {
+                dateDivElement.style.display = "block";
+            }
+            else {
+                dateDivElement.style.display = "none";
+            }
+        }
+    </script>
+
+}
