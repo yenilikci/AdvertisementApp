@@ -1,0 +1,19 @@
+﻿@model AdvertisementAppUserCreateModel
+@{
+    Layout = "_Layout";
+}
+
+<div class="container mt-4 m-height-100vh">
+    <h1>Advertisement</h1>
+    <hr />
+    <form asp-action="Send" asp-controller="Advertisement" method="post" class="p-4 w--75 mx-auto">
+
+         <input asp-for="@Model.AdvertisementId" type="hidden" />
+        <div class="mb-3 text-end">
+            <button type="submit" class="btn btn-primary">
+                Send
+            </button>
+        </div>
+        <div class="text-danger" asp-validation-summary="All"></div>
+    </form>
+</div>
