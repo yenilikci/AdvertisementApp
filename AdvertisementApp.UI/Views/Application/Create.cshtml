@@ -1,0 +1,46 @@
+﻿@model AdvertisementCreateDto
+
+@{
+    Layout = "_Layout";
+}
+
+<div class="container mt-4 m-height-100vh">
+    <h1>Create Advertisement</h1>
+    <hr />
+    <form asp-action="Create" asp-controller="Application" method="post">
+        <div class="mb-3">
+            <label>Title</label>
+            <input type="text" class="form-control" asp-for="@Model.Title" />
+        </div>
+        <div class="mb-3">
+            <label class="form-check-label">Active</label>
+            <input type="checkbox" class="form-check-input" asp-for="@Model.Status" />
+        </div>
+        <div class="mb-3">
+            <label>Description</label>
+            <textarea asp-for="@Model.Description" class="form-control"></textarea>
+        </div>
+
+        <div class="mb-3 text-end">
+            <button type="submit" class="btn btn-primary">
+                Create
+            </button>
+        </div>
+        <div class="text-danger" asp-validation-summary="All"></div>
+    </form>
+</div>
+
+@section script {
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Trumbowyg/2.26.0/trumbowyg.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#Description").trumbowyg();
+        })
+    </script>
+}
+
+@section css {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Trumbowyg/2.26.0/ui/trumbowyg.min.css" />
+}

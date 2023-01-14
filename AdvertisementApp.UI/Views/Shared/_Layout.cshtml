@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="/css/styles.css" rel="stylesheet" />
+    @RenderSection("css", false)
 </head>
 <body id="page-top">
     <!-- Navigation-->
@@ -32,7 +33,9 @@
                             }
                             @if (User.IsInRole("Admin"))
                             {
-                                <li class="nav-item"><a class="nav-link" asp-action="List" asp-controller="Advertisement">Advertisement</a></li>
+                                <li class="nav-item"><a class="nav-link" asp-action="List" asp-controller="Advertisement">Advertisement List</a></li>
+                                <li class="nav-item"><a class="nav-link" asp-action="List" asp-controller="Application">Advertisement Management</a></li>
+
                             }
                             <li class="nav-item"><a class="nav-link" asp-action="LogOut" asp-controller="Account">Logout</a></li>
                         }
