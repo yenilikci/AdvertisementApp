@@ -24,8 +24,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/belih/OneDrive/Masaüstü/AdvertisementApp/AdvertisementApp.UI/Views/Advertisement/ApprovedList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWR2ZXJ0aXNlbWVudFxBcHByb3ZlZExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/belih/OneDrive/Masaüstü/AdvertisementApp/AdvertisementApp.UI/Views/Advertisement/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWR2ZXJ0aXNlbWVudFxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/belih/OneDrive/Masaüstü/AdvertisementApp/AdvertisementApp.UI/Views/Advertisement/RejectedList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWR2ZXJ0aXNlbWVudFxSZWplY3RlZExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/belih/OneDrive/Masaüstü/AdvertisementApp/AdvertisementApp.UI/Views/Advertisement/Send.cshtml]
