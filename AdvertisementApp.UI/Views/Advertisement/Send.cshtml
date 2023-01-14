@@ -6,19 +6,37 @@
 <div class="container mt-4 m-height-100vh">
     <h1>Advertisement</h1>
     <hr />
-    <form asp-action="Send" asp-controller="Advertisement" method="post" class="p-4 w--75 mx-auto">
+    <form asp-action="Send" asp-controller="Advertisement" method="post" class="p-4 w--75 mx-auto" enctype="multipart/form-data">
 
         <input asp-for="@Model.AdvertisementId" type="hidden" />
+        <input asp-for="@Model.AppUserId" type="hidden" />
+
+        @if (ViewBag.GenderId == (int)GenderType.Erkek)
+        {
+            <div class="mb-3">
+                <label>Military Status</label>
+                <select onchange="setInputVisibility()" class="form-select" asp-items="@ViewBag.MilitaryStatus" asp-for="@Model.MilitaryStatusId">
+                </select>
+            </div>
+
+            <div id="dateDiv" class="mb-3" style="display: none;">
+                <label>Postpone the date</label>
+                <input type="date" asp-for="@Model.EndDate" class="form-control" />
+            </div>
+        }
+        else
+        {
+            <input type="hidden" asp-for="@Model.MilitaryStatusId" value="@((int)MilitaryStatusType.Muaf)" />
+        }
 
         <div class="mb-3">
-            <label>Military Status</label>
-            <select onchange="setInputVisibility()" class="form-select" asp-items="@ViewBag.MilitaryStatus" asp-for="@Model.MilitaryStatusId">
-            </select>
+            <label>Work Experience (Year)</label>
+            <input type="number" asp-for="@Model.WorkExperience" class="form-control" />
         </div>
 
-        <div id="dateDiv" class="mb-3" style="display: none;">
-            <label>Postpone the date</label>
-            <input type="date" asp-for="@Model.EndDate" class="form-control" />
+        <div class="mb-3">
+            <label>CV</label>
+            <input type="file" asp-for="@Model.CVFile" class="form-control" />
         </div>
 
 

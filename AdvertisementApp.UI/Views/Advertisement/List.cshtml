@@ -1,0 +1,57 @@
+﻿@model List<AdvertisementAppUserListDto>
+
+@{
+    Layout = "_Layout";
+}
+
+<div class="container mt-4 m-height-100vh">
+    <h1>Advertisement App User List</h1>
+    <hr />
+    @{
+        if (Model?.Count > 0)
+        {
+            <div class="text-end y-3 bg-light p-2">
+                <a asp-action="Approved" asp-asp-controller="Advertisement">Those called for an interview</a>
+                <a asp-action="Rejected" asp-asp-controller="Advertisement">Whose applications were rejected</a>
+            </div>
+            <table class="table table-sm table-hover table-striped text-center">
+                <thead>
+                    <tr>
+                        <th>Advertisement</th>
+                        <th>Applicant</th>
+                        <th>Status</th>
+                        <th>Gender</th>
+                        <th>Military Status</th>
+                        <th>Postpone the date</th>
+                        <th>Work Experience</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var advertisementAppUser in Model)
+                    {
+                        <tr>
+                            <td>@advertisementAppUser.Advertisement.Title</td>
+                            <td>@advertisementAppUser.AppUser.Firstname @advertisementAppUser.AppUser.Surname</td>
+                            <td>@advertisementAppUser.AdvertisementAppUserStatus.Definition</td>
+                            <td>@advertisementAppUser.AppUser.Gender.Definition</td>
+                            <td>@advertisementAppUser.MilitaryStatus.Definition</td>
+                            <td>@(advertisementAppUser.EndDate == null ? " Exempted or served" : advertisementAppUser.EndDate?.ToString("dddd, dd MMMM yyyy"))</td>
+                            <td>@advertisementAppUser.WorkExperience</td>
+                            <td>
+                                <a class="btn btn-primary" asp-controller="Advertisement" asp-action="SetStatus" asp-route-advertisementAppUserId="@advertisementAppUser.Id" asp-route-type="@((int)AdvertisementAppUserStatusType.Mulakat)">Call for an interview</a>
+                                <a class="btn btn-danger" asp-controller="Advertisement" asp-action="SetStatus" asp-route-advertisementAppUserId="@advertisementAppUser.Id"asp-route-type="@((int)AdvertisementAppUserStatusType.Olumsuz)">Reject</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <div class="mt-3 text-center lead">
+                No applicants
+            </div>
+        }
+    }
+</div>
