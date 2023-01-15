@@ -32,8 +32,8 @@
                             <td>@advertisement.CreatedDate.ToString("dddd, dd MMMM yyyy")</td>
                             <td>@(advertisement.Status ? "Open" : "Close")</td>
                             <td>
-                                <a class="btn btn-primary" asp-controller="Advertisement" asp-action="Update">Update</a>
-                                <a class="btn btn-danger" asp-controller="Advertisement" asp-action="Remove">Remove</a>
+                                <a class="btn btn-primary" asp-controller="Application" asp-action="Update" asp-route-id="@advertisement.Id">Update</a>
+                                <a class="btn btn-danger" asp-controller="Application" asp-action="Remove" asp-route-id="@advertisement.Id">Remove</a>
                             </td>
                         </tr>
                     }

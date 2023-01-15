@@ -1,6 +1,7 @@
 ﻿using AdvertisementApp.Common;
 using AdvertisementApp.Common.Enums;
 using AdvertisementApp.Dtos;
+using AdvertisementApp.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;

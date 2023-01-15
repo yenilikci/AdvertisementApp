@@ -146,6 +146,5 @@ namespace AdvertisementApp.UI.Controllers
             var list = await _advertisementAppUserService.GetList(AdvertisementAppUserStatusType.Olumsuz);
             return View(list);
         }
-
     }
 }
