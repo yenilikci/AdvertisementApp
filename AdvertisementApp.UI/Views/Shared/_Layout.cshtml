@@ -20,7 +20,7 @@
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg @(User.Identity.IsAuthenticated && User.IsInRole("Admin")? "navbar-dark bg-primary" : "navbar-dark bg-dark navbar-custom")">
         <div class="container px-5">
-            <a class="navbar-brand" asp-action="Index" asp-controller="Home">Advertisement App</a>
+            <a class="navbar-brand" asp-action="Index" asp-controller="Home">ADVERTISEMENT APP</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
@@ -29,22 +29,22 @@
                         {
                             @if (User.IsInRole("Member"))
                             {
-                                <li class="nav-item"><a class="nav-link" asp-action="HumanResources" asp-controller="Home">Human Resources</a></li>
+                                <li class="nav-item"><a class="nav-link" asp-action="HumanResources" asp-controller="Home">HUMAN RESOURCES</a></li>
                             }
                             @if (User.IsInRole("Admin"))
                             {
-                                <li class="nav-item"><a class="nav-link" asp-action="List" asp-controller="Advertisement">Advertisement List</a></li>
-                                <li class="nav-item"><a class="nav-link" asp-action="List" asp-controller="Application">Advertisement Management</a></li>
+                                <li class="nav-item"><a class="nav-link" asp-action="List" asp-controller="Advertisement">ADVERTISEMENT LIST</a></li>
+                                <li class="nav-item"><a class="nav-link" asp-action="List" asp-controller="Application">ADVERTISEMENT MANAGEMENT</a></li>
 
                             }
-                            <li class="nav-item"><a class="nav-link" asp-action="LogOut" asp-controller="Account">Logout</a></li>
+                            <li class="nav-item"><a class="nav-link" asp-action="LogOut" asp-controller="Account">LOGOUT</a></li>
                         }
 
                         else
                         {
-                            <li class="nav-item"><a class="nav-link" asp-action="SignUp" asp-controller="Account">Sign Up</a></li>
-                            <li class="nav-item"><a class="nav-link" asp-action="SignIn" asp-controller="Account">Sign In</a></li>
-                            <li class="nav-item"><a class="nav-link" asp-action="HumanResources" asp-controller="Home">Human Resources</a></li>
+                            <li class="nav-item"><a class="nav-link" asp-action="SignUp" asp-controller="Account">SIGN UP</a></li>
+                            <li class="nav-item"><a class="nav-link" asp-action="SignIn" asp-controller="Account">SIGN IN</a></li>
+                            <li class="nav-item"><a class="nav-link" asp-action="HumanResources" asp-controller="Home">HUMAN RESOURCES</a></li>
                         }
                     }
                 </ul>

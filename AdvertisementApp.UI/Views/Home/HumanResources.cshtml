@@ -11,7 +11,7 @@
                 <h2 class="accordion-header" id="heading-@Model[i].Id">
                     <button class="accordion-button custom-between" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-@Model[i].Id" aria-expanded="@(i==0)" aria-controls="collapse-@Model[i].Id   ">
                         <span>@Model[i].Title</span>
-                        <span>sa</span>
+                        <span class="badge bg-dark">@Model[i].CreatedDate.ToString("dddd, dd MMMM yyyy")</span>
                     </button>
                 </h2>
                 <div id="collapse-@Model[i].Id" class="accordion-collapse collapse @(i == 0 ? "show" : "")" aria-labelledby="heading-@Model[i].Id" data-bs-parent="#accordionExample">

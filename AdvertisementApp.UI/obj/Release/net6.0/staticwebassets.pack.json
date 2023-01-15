@@ -1,0 +1,141 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\assets\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\assets\\img\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\assets\\img\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\assets\\img\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\assets\\img\\homepage-image-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\homepage-image-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\assets\\img\\homepage-image-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\homepage-image-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\cvFiles\\0fd71daa-7017-4d43-ada4-059cf43dbce0.pdf",
+      "PackagePath": "staticwebassets\\cvFiles\\0fd71daa-7017-4d43-ada4-059cf43dbce0.pdf"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\cvFiles\\1a1c54ff-917b-494b-8faf-f35f4e0fa8e9.pdf",
+      "PackagePath": "staticwebassets\\cvFiles\\1a1c54ff-917b-494b-8faf-f35f4e0fa8e9.pdf"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\cvFiles\\1ab84d8d-f9c4-4b8e-ac82-2e64b6b500b2.pdf",
+      "PackagePath": "staticwebassets\\cvFiles\\1ab84d8d-f9c4-4b8e-ac82-2e64b6b500b2.pdf"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\cvFiles\\1db52933-b917-425d-a6b7-408c3abfe4f1.pdf",
+      "PackagePath": "staticwebassets\\cvFiles\\1db52933-b917-425d-a6b7-408c3abfe4f1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\cvFiles\\23f30405-52f1-417c-ba55-2f991d3d5470.pdf",
+      "PackagePath": "staticwebassets\\cvFiles\\23f30405-52f1-417c-ba55-2f991d3d5470.pdf"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\cvFiles\\2531ef7a-57b0-4b0c-93a9-649a4d2ecda7.pdf",
+      "PackagePath": "staticwebassets\\cvFiles\\2531ef7a-57b0-4b0c-93a9-649a4d2ecda7.pdf"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\cvFiles\\2c996890-d6b6-4f88-ab8c-8915fa1ad8c2.pdf",
+      "PackagePath": "staticwebassets\\cvFiles\\2c996890-d6b6-4f88-ab8c-8915fa1ad8c2.pdf"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\cvFiles\\313e9b6e-d667-486e-981f-db33f6b54423.pdf",
+      "PackagePath": "staticwebassets\\cvFiles\\313e9b6e-d667-486e-981f-db33f6b54423.pdf"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\cvFiles\\3362628b-d9d4-42fa-a375-db988e871a15.pdf",
+      "PackagePath": "staticwebassets\\cvFiles\\3362628b-d9d4-42fa-a375-db988e871a15.pdf"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\cvFiles\\612701b5-055a-4e32-ace9-6cea6f89288b.pdf",
+      "PackagePath": "staticwebassets\\cvFiles\\612701b5-055a-4e32-ace9-6cea6f89288b.pdf"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\cvFiles\\689c8606-f9b2-437f-a42d-aaa954a95697.pdf",
+      "PackagePath": "staticwebassets\\cvFiles\\689c8606-f9b2-437f-a42d-aaa954a95697.pdf"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\cvFiles\\6b9e036a-d0df-4ca0-a394-bb64207007cd.pdf",
+      "PackagePath": "staticwebassets\\cvFiles\\6b9e036a-d0df-4ca0-a394-bb64207007cd.pdf"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\cvFiles\\6debf77c-2ca5-43f6-98e0-70b1161c2f23.pdf",
+      "PackagePath": "staticwebassets\\cvFiles\\6debf77c-2ca5-43f6-98e0-70b1161c2f23.pdf"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\cvFiles\\6feb9c61-adfe-4e00-9c56-9ab3c314ee2b.pdf",
+      "PackagePath": "staticwebassets\\cvFiles\\6feb9c61-adfe-4e00-9c56-9ab3c314ee2b.pdf"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\cvFiles\\7d727e95-a455-45e4-91f7-3555fce66716.pdf",
+      "PackagePath": "staticwebassets\\cvFiles\\7d727e95-a455-45e4-91f7-3555fce66716.pdf"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\cvFiles\\845ef0d9-5669-4bca-b8c6-8c2b3a323467.pdf",
+      "PackagePath": "staticwebassets\\cvFiles\\845ef0d9-5669-4bca-b8c6-8c2b3a323467.pdf"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\cvFiles\\ab78a1f6-e0bb-4086-a963-6491bec008db.pdf",
+      "PackagePath": "staticwebassets\\cvFiles\\ab78a1f6-e0bb-4086-a963-6491bec008db.pdf"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\cvFiles\\bb3c6233-4088-4a9e-8979-584e19d1bce3.pdf",
+      "PackagePath": "staticwebassets\\cvFiles\\bb3c6233-4088-4a9e-8979-584e19d1bce3.pdf"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\cvFiles\\bd7aa314-b67c-4ce7-9fcb-0151dfc919c2.pdf",
+      "PackagePath": "staticwebassets\\cvFiles\\bd7aa314-b67c-4ce7-9fcb-0151dfc919c2.pdf"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\cvFiles\\bece51e8-3455-40fb-9c38-460e1babfc78.pdf",
+      "PackagePath": "staticwebassets\\cvFiles\\bece51e8-3455-40fb-9c38-460e1babfc78.pdf"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\cvFiles\\e8fe5ca9-a4fc-4a23-a9ed-bd7554d54266.pdf",
+      "PackagePath": "staticwebassets\\cvFiles\\e8fe5ca9-a4fc-4a23-a9ed-bd7554d54266.pdf"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\cvFiles\\ee858923-b560-4121-843b-578e5e386292.pdf",
+      "PackagePath": "staticwebassets\\cvFiles\\ee858923-b560-4121-843b-578e5e386292.pdf"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.AdvertisementApp.UI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.AdvertisementApp.UI.props",
+      "PackagePath": "build\\AdvertisementApp.UI.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.AdvertisementApp.UI.props",
+      "PackagePath": "buildMultiTargeting\\AdvertisementApp.UI.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.AdvertisementApp.UI.props",
+      "PackagePath": "buildTransitive\\AdvertisementApp.UI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

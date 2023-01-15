@@ -1,8 +1,3 @@
-C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.DataAccess\obj\Debug\net6.0\AdvertisementApp.DataAccess.csproj.AssemblyReference.cache
-C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.DataAccess\obj\Debug\net6.0\AdvertisementApp.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.DataAccess\obj\Debug\net6.0\AdvertisementApp.DataAccess.AssemblyInfoInputs.cache
-C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.DataAccess\obj\Debug\net6.0\AdvertisementApp.DataAccess.AssemblyInfo.cs
-C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.DataAccess\obj\Debug\net6.0\AdvertisementApp.DataAccess.csproj.CoreCompileInputs.cache
 C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.DataAccess\bin\Debug\net6.0\AdvertisementApp.DataAccess.deps.json
 C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.DataAccess\bin\Debug\net6.0\AdvertisementApp.DataAccess.runtimeconfig.json
 C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.DataAccess\bin\Debug\net6.0\AdvertisementApp.DataAccess.dll
@@ -11,6 +6,11 @@ C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.DataAccess\
 C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.DataAccess\bin\Debug\net6.0\AdvertisementApp.Entities.dll
 C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.DataAccess\bin\Debug\net6.0\AdvertisementApp.Common.pdb
 C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.DataAccess\bin\Debug\net6.0\AdvertisementApp.Entities.pdb
+C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.DataAccess\obj\Debug\net6.0\AdvertisementApp.DataAccess.csproj.AssemblyReference.cache
+C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.DataAccess\obj\Debug\net6.0\AdvertisementApp.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.DataAccess\obj\Debug\net6.0\AdvertisementApp.DataAccess.AssemblyInfoInputs.cache
+C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.DataAccess\obj\Debug\net6.0\AdvertisementApp.DataAccess.AssemblyInfo.cs
+C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.DataAccess\obj\Debug\net6.0\AdvertisementApp.DataAccess.csproj.CoreCompileInputs.cache
 C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.DataAccess\obj\Debug\net6.0\AdvertisementApp.DataAccess.csproj.CopyComplete
 C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.DataAccess\obj\Debug\net6.0\AdvertisementApp.DataAccess.dll
 C:\Users\belih\OneDrive\Masaüstü\AdvertisementApp\AdvertisementApp.DataAccess\obj\Debug\net6.0\refint\AdvertisementApp.DataAccess.dll
