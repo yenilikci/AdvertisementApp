@@ -5,27 +5,31 @@
 
 <div class="container my-5 m-height-100vh">
     <div class="accordion" id="accordionExample">
-        @for (int i = 0; i < Model?.Count; i++) {
-            <div class="accordion-item">
+        @for (int i = 0; i < Model?.Count; i++)
+        {
+            <div class="accordion-item my-3 border-1 shadow-md">
                 <h2 class="accordion-header" id="heading-@Model[i].Id">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-@Model[i].Id" aria-expanded="@(i==0)" aria-controls="collapse-@Model[i].Id   ">
-                        @Model[i].Title
+                    <button class="accordion-button custom-between" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-@Model[i].Id" aria-expanded="@(i==0)" aria-controls="collapse-@Model[i].Id   ">
+                        <span>@Model[i].Title</span>
+                        <span>sa</span>
                     </button>
                 </h2>
                 <div id="collapse-@Model[i].Id" class="accordion-collapse collapse @(i == 0 ? "show" : "")" aria-labelledby="heading-@Model[i].Id" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         @Html.Raw(@Model[i].Description)
                         <div>
-                            @if(User.Identity.IsAuthenticated)
+                            @if (User.Identity.IsAuthenticated)
                             {
-                                <a asp-controller="Advertisement" asp-action="Send" asp-route-advertisementId="@Model[i].Id">Apply</a>
+                                <a asp-controller="Advertisement" class="btn btn-primary d-block text-center my-2" asp-action="Send" asp-route-advertisementId="@Model[i].Id">Apply</a>
                             }
                             else
                             {
-                                <div class="alert alert-light text-center my-2">
-                                    You must sign in to apply <a asp-action="SignIn" asp-controller="Account">Sign In</a>
+                                <div class="alert alert-light text-center my-2 border border-2 shadow-sm">
+                                    <p>You must sign in to apply.</p>
+                                    <a class="btn btn-primary d-block" asp-action="SignIn" asp-controller="Account">Sign In</a>
                                 </div>
                             }
+
                         </div>
                     </div>
                 </div>
@@ -33,3 +37,14 @@
         }
     </div>
 </div>
+
+@section css {
+    <style>
+        .custom-between {
+            display: grid;
+            grid-template-columns: 1fr max-content max-content;
+            align-items: center;
+            grid-gap: 10px;
+        }
+    </style>
+}

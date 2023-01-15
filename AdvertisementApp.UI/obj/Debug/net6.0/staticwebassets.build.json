@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ic1F0318x1apTRg0pao3io+fopIh7qQpxO8JdFS0Bo8=",
+  "Hash": "Fx26JhD3OwSPO0tyRtOvNQMA2L1lBKpBqC58XeDkJKU=",
   "Source": "AdvertisementApp.UI",
   "BasePath": "_content/AdvertisementApp.UI",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\03.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\assets\\img\\homepage-image-1.jpg",
+      "SourceId": "AdvertisementApp.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\",
+      "BasePath": "_content/AdvertisementApp.UI",
+      "RelativePath": "assets/img/homepage-image-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\homepage-image-1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\assets\\img\\homepage-image-2.jpg",
+      "SourceId": "AdvertisementApp.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\",
+      "BasePath": "_content/AdvertisementApp.UI",
+      "RelativePath": "assets/img/homepage-image-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\homepage-image-2.jpg"
     },
     {
       "Identity": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\css\\styles.css",

@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\assets\\img\\03.jpg"
     },
     {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\assets\\img\\homepage-image-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\homepage-image-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\assets\\img\\homepage-image-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\homepage-image-2.jpg"
+    },
+    {
       "Id": "C:\\Users\\belih\\OneDrive\\Masaüstü\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\css\\styles.css",
       "PackagePath": "staticwebassets\\css\\styles.css"
     },

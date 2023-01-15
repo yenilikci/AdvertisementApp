@@ -6,9 +6,8 @@
 <header class="masthead text-center text-white">
     <div class="masthead-content">
         <div class="container px-5">
-            <h1 class="masthead-heading mb-0">#hiApp!</h1>
-            <h2 class="masthead-subheading mb-0">Will Rock Your Socks Off</h2>
-            <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Learn More</a>
+            <h1 class="masthead-heading mb-0">#welcome</h1>
+            <a class="btn btn-dark btn-xl px-5 rounded-pill mt-5" href="#scroll">DISCOVER</a>
         </div>
     </div>
     <div class="bg-circle-1 bg-circle"></div>
@@ -23,7 +22,7 @@
         <div class="container px-5">
             <div class="row gx-5 align-items-center">
                 <div class="col-lg-6 @(i%2==0?"order-lg-2":"")">
-                    <div class="p-5"><img class="img-fluid rounded-circle" src="@Model[i].ImagePath" alt="..." /></div>
+                    <div class="p-5"><img class="img-fluid img-450" src="@Model[i].ImagePath" alt="..." /></div>
                 </div>
                 <div class="col-lg-6 @(i%2==0?"order-lg-1":"")">
                     <div class="p-5">
@@ -34,4 +33,13 @@
             </div>
         </div>
     </section>
+}
+
+@section css {
+    <style>
+        .img-450 {
+            max-width: 450px;
+            max-height: 450px;
+        }
+    </style>
 }
